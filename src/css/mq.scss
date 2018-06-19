@@ -1,0 +1,33 @@
+@include touch {
+  .curve{
+    display: none;
+  }
+  .home-full-img{
+    background: transparent;
+  }
+  .technologies{
+    .subtitle_two{
+      padding-bottom: 3.5rem;
+    }
+  }
+  .container-contact{
+    padding-top: 7.5rem;
+  }
+  .contact{
+    .container-contact{
+      padding-top: 10vh;
+    }
+  }
+  .construction{
+    padding-top: 10vh;
+  }
+}
+
+@include desktop-only {
+
+}
+
+@include widescreen-only {
+}
+
+@include fullhd {}
